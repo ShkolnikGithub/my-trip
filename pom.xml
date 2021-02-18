@@ -11,6 +11,15 @@
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
+        <spring.ver>5.3.3</spring.ver>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.ver}</version>
+        </dependency>
+    </dependencies>
 
 </project>
